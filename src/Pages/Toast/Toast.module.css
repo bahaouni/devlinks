@@ -1,0 +1,31 @@
+.toast {
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 24px;
+    min-width: 300px;
+    font: var(--font-head-sm);
+    color: var(--clr-white-sec);
+    background-color: var(--clr-dark-grey);
+    border-radius: 12px;
+    opacity: 0;
+    animation:
+        fade-in 0.3s ease forwards,
+        fade-in 0.3s 3s ease reverse forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.toast svg {
+    flex-shrink: 0;
+}

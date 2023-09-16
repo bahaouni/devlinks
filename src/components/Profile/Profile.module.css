@@ -1,0 +1,15 @@
+.main{
+    background-color: #efefef;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 85.7%;
+    width: 97%;
+}

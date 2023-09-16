@@ -1,0 +1,51 @@
+h3{
+    color: #333;
+    font: 700 1.5rem/150% Instrument Sans,Arial,sans-serif;
+}
+p{
+    color: #737373;
+    margin-top: -15px;
+}
+.container{
+    background-color: white;
+    border-radius: 6px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub{
+    width: 93%;
+    margin: auto;
+}
+.btnadd{
+    color: #633cff;
+    background-color: #fff;
+    border: 1px solid #633cff;
+    font: bold 1rem/150% "Instrument Sans", Arial, sans-serif;
+    height: 46px;
+    border-radius: 8px;
+    width: 100%;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.btnsave{
+    color: #fff;
+    background-color: #633cff;
+    border-radius: 8px;
+    border: none;
+    font: bold 1rem/150% "Instrument Sans", Arial, sans-serif;
+    transition: all .3s ease;
+    cursor: pointer;
+    height: 46px;
+    width: 91px;
+    float: right;
+    margin-right: 22px;
+    margin-top: 7px;
+}
+.hhr{
+    color: #D9D9D9;
+}
+.footer{
+    height: 70px;
+}

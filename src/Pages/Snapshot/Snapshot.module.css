@@ -1,0 +1,23 @@
+.container{
+
+    background-color: white;
+    border-radius: 6px;
+    width: 39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.svgContainer {
+    position: relative; /* Required for absolute positioning of overlay elements */
+  }
+  
+  .overlayText {
+    position: absolute;
+    top: 50%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    z-index: 2; /* Ensure the text appears above the SVG */
+    /* Additional styling for your overlay text */
+  }
+  

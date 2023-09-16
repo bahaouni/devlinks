@@ -1,0 +1,143 @@
+.container{
+    height: 100vh;
+    background-color: #FAFAFA;
+}
+.header{
+    height: 40%;
+    background-color: #633cff;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    padding-top: 15px;
+}
+.up{
+    width: 90%;
+    height: 70px;
+    background-color: white;
+    margin: auto;
+    
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.btn1{
+    color: #633cff;
+    background-color: white;
+    border: 1px solid #633cff;
+    font: bold 1rem/150% "Instrument Sans", Arial, sans-serif;;
+    border-radius: 8px;
+    transition: all .3s ease;
+    cursor: pointer;
+    padding: 10px;
+
+
+}
+.btn1:hover{
+    background-color: #BEADFF;
+}
+.btn2:hover{
+    background-color: #c8baff;
+}
+.btn2{
+    color: white;
+    background-color: #633cff;
+    border:none;
+    font: bold 1rem/150% "Instrument Sans", Arial, sans-serif;;
+    border-radius: 8px;
+    transition: all .3s ease;
+    width: 130px;
+    cursor: pointer;
+    height: 40px;
+    padding: 10px;
+
+
+}
+.center{
+    background-color: white;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc(50% - 210px);
+    width: 300px;
+    height: 420px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 32px #0000001a;
+}
+.image{
+    height: 90px;
+    width: 90px;
+    background-color: #dbdbdb;
+    border-radius: 50%;
+}
+.cfoot{
+    display: flex;
+    flex-direction: column;
+    margin-top: -90px;
+
+}
+.ccenter{
+    margin-top: -170px;
+}
+.cfoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.x{
+    height: 40px;
+    width: 150px;
+    background-color: #dbdbdb;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
+.e{
+    height: 30px;
+    width: 230px;
+    background-color: #dbdbdb;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+.fbtn1{
+    font: bold 1rem/150% "Instrument Sans", Arial, sans-serif;;
+    border-radius: 10px;
+    transition: all .3s ease;
+    border: none;
+    background-color: #dbdbdb;
+    height: 45px;
+    width: 200px;
+    margin-top: 5px;
+
+}
+.fbtn2{
+    font: bold 1rem/150% "Instrument Sans", Arial, sans-serif;;
+    border-radius: 10px;
+    transition: all .3s ease;
+    border: none;
+    background-color: #dbdbdb;
+    height: 45px;
+    width: 200px;
+    margin-top: 5px;
+
+
+}
+.fbtn3{
+    font: bold 1rem/150% "Instrument Sans", Arial, sans-serif;;
+    border-radius: 10px;
+    transition: all .3s ease;
+    border: none;
+    background-color: #dbdbdb;
+    height: 45px;
+    width: 200px;
+    margin-top: 5px;
+
+
+}
