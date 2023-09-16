@@ -11,7 +11,7 @@ export default function Preview() {
     <div className={styles.container}>
       <div className={styles.header}>
         <div className={styles.up}>
-          <Link to='/home'>
+          <Link to='/'>
             <button className={styles.btn1}>Back to Editor</button>
           </Link>
           <button className={styles.btn2}>Share Link</button>
