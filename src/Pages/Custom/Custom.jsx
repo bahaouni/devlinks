@@ -5,7 +5,7 @@ export default function Custom() {
     <>
         <div className={styles.container}>
             <div className={styles.sub}>
-                <h3>Customize your links</h3>
+                <h3>hasneoui ye mzamer  </h3>
                 <p>Add/edit/remove links below and then share all your profiles with the world!</p><br/>
                 <div><button className={styles.btnadd}>+Add new link</button></div>
                 <div></div>
